@@ -16,4 +16,4 @@ RUN echo 'cd /noVNC-1.2.0' >>/luo.sh
 RUN echo './utils/launch.sh  --vnc localhost:7900 --listen 8199 ' >>/intel.sh
 RUN chmod 755 /intel.sh
 EXPOSE 8199
-CMD  /luo.sh
+CMD  /intel.sh
